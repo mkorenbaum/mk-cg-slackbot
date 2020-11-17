@@ -203,8 +203,8 @@ def help(message):
                    '"what tenant or what customer"\n' \
                    '"you there or you alive"\n' \
                    '"Show media <app name> at <site name>"\n' \
-                   '"show alarms <all | code_list>"\n' \
-                   '"Show site-alarms <site name>"\n'
+                   '"show alarms all"\n' \
+                   #'"Show site-alarms <site name>"\n'
     message.reply(message_text, in_thread=True)
 
 
